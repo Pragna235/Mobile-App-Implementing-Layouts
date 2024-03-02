@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll1"
+    android:layout_width="409dp"
+    android:layout_height="729dp"
+    android:orientation="vertical"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="312dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Change Orientation"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="34sp"
+        android:onClick="llChangeOrientation"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="BUTTON" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="298dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="3" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="296dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="4" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="293dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="5" />
+</LinearLayout>
